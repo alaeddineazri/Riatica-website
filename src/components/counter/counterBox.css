@@ -1,0 +1,42 @@
+.counter-section {
+	background-color: #0084ff;
+
+	text-transform: uppercase;
+}
+
+.val{
+	font-size: 6rem;
+	font-weight: 500;
+}
+
+
+/* .counter-p {
+		margin: 0 2vw;
+} */
+/* .box-counter {
+	background-color: #ffffff4d;
+	padding: 3% 3%  ;
+	margin: 2% 3%;
+	border-radius: 15px;
+
+
+} */
+
+/* .container-countup {
+	
+	align-items: center;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.container__value {
+
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+.container__label {
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+} */

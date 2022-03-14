@@ -1,0 +1,26 @@
+
+
+
+
+.card-icon{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  box-shadow: 1px 3px 10px 1px red;
+}
+
+.card:hover { 
+  box-shadow: 10px 5px 10px 5px #e4e4e4;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.title:hover{
+color: red;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}

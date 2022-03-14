@@ -1,0 +1,14 @@
+.Container {
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.274)),
+  url("intro.gif") ;
+  background-size: cover ;
+
+}
+

@@ -1,0 +1,23 @@
+.ToTop {
+  position: fixed;
+  bottom: 55px;
+  right: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  cursor: pointer;
+  box-shadow: 2px red;
+}
+
+.ToTop:hover {
+  background-color: rgb(206, 0, 0);
+  height: 27px;
+  width: 27px;
+
+}

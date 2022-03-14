@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.myBtn {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 10px ;
+  margin: 10px ;
+  text-transform: capitalize;
+}
+.myBtn:hover {
+  background-color: rgb(180, 0, 0);
+}
+
+.hoverMe {
+   color: black;
+}
+
+.hoverMe:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+.myBtn-outline-1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-color: red;
+  border-radius: 5px;
+  padding: 9px 9px ;
+  margin: 10px ;
+  text-transform: capitalize;
+}
+
+.myBtn-outline-1:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.myBtn-outline-2{
+  background-color: #0084ff;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 9px 9px ;
+  margin: 10px ;
+  text-transform: capitalize;
+}
+
+.myBtn-outline-2:hover {
+  background-color: rgb(255, 255, 255);
+  color: #006cd1;
+}
+
+
+.secondBG-Color {
+  background-color: #f7fcff;
+}
+
+
+.underTitle {
+  font-weight: bold;
+
+}
+
+.box 
+{background-color: rgba(243, 248, 252, 0.411) ;}

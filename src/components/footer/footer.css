@@ -1,0 +1,118 @@
+/* .footer-classic {
+	letter-spacing: 0.02em;
+}
+
+.footer-classic * + .contact-list {
+	margin-top: 40px;
+}
+
+.footer-classic .footer-title {
+	padding-top: 30px;
+	text-transform: capitalize;
+}
+
+.footer-classic .footer-title + * {
+	margin-top: 35px;
+}
+
+.footer-classic .footer-list a, .footer-classic .footer-list a:focus, .footer-classic .footer-list a:active {
+	color: #5D6678;
+}
+
+.footer-classic .footer-list a:hover {
+	color: #ff0000;
+}
+
+.footer-classic * + .list-social {
+	margin-top: 25px;
+}
+
+.footer-classic .footer-list-inline {
+	font-size: 12px;
+	letter-spacing: 0.02em;
+}
+
+.footer-classic .footer-list-inline > * {
+	display: inline-block;
+}
+
+.footer-classic .footer-list-inline li + li {
+	margin-left: 30px;
+}
+
+.footer-classic .footer-list-inline a, .footer-classic .footer-list-inline a:focus, .footer-classic .footer-list-inline a:active {
+	color: #5D6678;
+}
+
+.footer-classic .footer-list-inline a:hover {
+	color: #ff1e00;
+}
+
+.footer-classic .rights {
+	font-size: 12px;
+	letter-spacing: 0.02em;
+} */
+.span-title {
+    color: #ff1e00;
+    font-weight: bold;
+}
+
+ul , a {
+    list-style-type: none;
+    text-decoration: none;
+    }
+
+    .home-about-social-links {
+        justify-content: center ;
+        padding-top: 15px ;
+        display: inline-block ;
+        position: relative ;
+        padding-inline-start: 0 ;
+      }
+      
+      .home-social-icons {
+        position: relative ;
+        display: inline-block ;
+        width: 45px ;
+        height: 45px ;
+        text-align: center ;
+        font-size: 1.3em ;
+        line-height: 2em ;
+        background: rgba(255, 255, 255, 0.972) ;
+        border-radius: 50% ;
+        transition: 0.5s ;
+      }
+      
+      .home-social-icons::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #ffffff;
+        transition: 0.5s;
+        transform: scale(0.8);
+        z-index: -1;
+      }
+      
+      .home-social-icons:hover::before {
+        transform: scale(1.1);
+        box-shadow: 0 0 2px #ff0000;
+      }
+      
+      .home-social-icons:hover {
+        color: #ff0000;
+        box-shadow: 0 0 5px #ffffff;
+        text-shadow: 0 0 2px #000000;
+      }
+      
+      .social-icons {
+        display: inline-block ;
+        padding-left: 15px;
+      }
+      
+      .icon-colour {
+        color: #ff0000 ;
+      }
